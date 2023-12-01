@@ -1,6 +1,6 @@
 import {Box, Card, CardContent, Stack, Typography} from "@mui/material";
-import Facebook from "./images/icon-facebook.svg";
-import Up from "./images/icon-up.svg";
+import Facebook from "../images/icon-facebook.svg";
+import Up from "../images/icon-up.svg";
 
 function bigCard() {
     return (

@@ -1,17 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import {Stack} from "@mui/material";
-import BigCard from "./components/bigCard";
+import {Box, Typography} from "@mui/material";
+import BigCards from "./components/bigCards";
+import SmallCards from "./components/smallCards";
 
 function App() {
-  return (
-      <Stack direction={"row"} justifyContent={"space-between"} spacing={4}>
-      <BigCard />
-      <BigCard />
-      <BigCard />
-      <BigCard />
-      </Stack>
-  );
+    return (
+        <>
+            <Typography fontWeight={"bold"} fontSize={32}>Social Media Dashboard</Typography>
+            <Typography>Total Followers: 23,004</Typography>
+            <Box sx={{height: 40}} />
+            <BigCards />
+            <Box sx={{height: 20}} />
+            <Typography fontSize={20}>Overview - Today</Typography>
+            <SmallCards />
+            <SmallCards />
+        </>
+    );
 }
 
 export default App;
