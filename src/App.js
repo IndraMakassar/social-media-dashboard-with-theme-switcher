@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Stack} from "@mui/material";
-import BigCard from "./bigCard";
+import BigCard from "./components/bigCard";
 
 function App() {
   return (
